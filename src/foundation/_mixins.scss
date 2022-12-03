@@ -1,0 +1,53 @@
+@import "./variables";
+
+@mixin mobile {
+  @media (max-width: "sm") {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: "md") {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: "lg") {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: "xl") {
+    @content;
+  }
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+
+  @include mobile {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  @include tablet {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  @include laptop {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  @include desktop {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+}

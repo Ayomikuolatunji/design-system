@@ -1,0 +1,27 @@
+@import "./variables";
+
+/* global colors */
+
+$dark-body-text: var(--dse-dark-text, $darks) !default;
+$body-bg-color: var(--dse-bg-color, $whites) !default;
+
+/**
+ *
+ * Button
+ *
+ */
+
+$button-bg-color: var(--dse-button-bg-color, $reds) !default;
+$button-bg-color-hover: var(--dse-button-bg-color-hover, $purples) !default;
+$button-bg-color-active: var(--dse-button-bg-color-active, $yellows) !default;
+
+/*=============================================
+=            header           =
+=============================================*/
+
+$header-bg-color: var(--dse-header-bg-color, $darks) !default;
+$header-text-color: var(--dse-header-text-color, $whites) !default;
+$header-text-color-hover: var(--dse-header-text-color-hover, $browns) !default;
+$header-text-color-active: var(--dse-header-text-color-active, $pinks) !default;
+
+/*=====  End of header ======*/
