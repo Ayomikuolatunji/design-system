@@ -21,7 +21,6 @@ const getComponents=()=>{
             ...components
          ]
    })
-
    return allComponents;
 }
 

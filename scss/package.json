@@ -10,6 +10,14 @@
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-prettier": "^2.0.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "npm run lint:fix"
+  },
   "name": "design-system",
   "version": "1.0.0",
   "main": "index.js",
