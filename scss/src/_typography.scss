@@ -1,0 +1,11 @@
+$size-xs: var(--des-size-xs, $xs) !default;
+$size-sm: var(--des-size-sm, $sm) !default;
+$size-md: var(--des-size-md, $md) !default;
+$size-lg: var(--des-size-lg, gray) !default;
+$size-xl: var(--des-size-xl, gray) !default;
+
+$size-h1: var(--des-h1, $xxl) !default;
+$size-h2: var(--des-h2, $xl) !default;
+$size-h3: var(--des-h3, $md) !default;
+$size-h4: var(--des-h4, $sm) !default;
+$size-h5: var(--des-h5, $xs) !default;
